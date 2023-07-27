@@ -2,10 +2,6 @@ import 'package:flutter_chat_bot_app/services/weather.dart';
 
 class LoadData {
   Map<dynamic, dynamic> resData = {};
-  // String lati;
-  // String long;
-
-  // LoadData({this.lati = "13.74", this.long = "100.523186"});
 
   Future<void> setupWeather({String? lati, String? long}) async {
     String latitude = lati ?? "13.736717";
@@ -13,9 +9,7 @@ class LoadData {
 
     Weather dataBKK = Weather(lat: latitude, lon: longitude);
     await dataBKK.fetchDataWeather();
-    print('dataBKK ${dataBKK.data}');
-
-    print('load $lati $long');
+    // print('dataBKK ${dataBKK.data}');
 
     if (dataBKK.data != null) {
       var tranData = {

@@ -9,10 +9,6 @@ class Weatherscreen extends StatefulWidget {
   final String? long;
 
   Weatherscreen({super.key,  this.lat,  this.long});
-  // String lat;
-  // String long;
-
-  // Weatherscreen({super.key, required this.lat, required this.long});
 
   @override
   State<Weatherscreen> createState() => _WeatherscreenState();

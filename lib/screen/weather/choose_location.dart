@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_chat_bot_app/screen/weather/loadData.dart';
 import 'package:flutter_chat_bot_app/screen/weather/weather.dart';
 
 class ChooseLocation extends StatefulWidget {
@@ -16,6 +15,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
     {"name": "Ubon Ratchathani", "lat": "15.244375", "lon": "104.84766"},
     {"name": "Phuket", "lat": "7.878978", "lon": "98.398392"},
     {"name": "Nonthaburi", "lat": "13.859108", "lon": "100.52165"},
+    {"name": "Pattaya", "lat": "12.927608", "lon": "100.877083"},
   ];
 
   @override
